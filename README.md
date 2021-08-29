@@ -29,7 +29,7 @@
 - concurrentHashMap的散列流程？concurrentHashMap怎么实现的线程安全？CAS什么意思，怎么实现的？Unsafe怎么实现？concurrentHashMap什么时候用到CAS？并发情况下两个线程都到之后怎么插入的？初始化的时候两个线程都检测到需要初始化了，然后怎么做的？
 - volatile讲一下，MESI？
 - 线程池思想 介绍了线程池execute，submit中适配的思想
-- [原子类](/Thread/21 原子类:无锁工具类的典范.md)
+- [原子类](https://github.com/jiazhiyuans/Java/blob/master/Thread/21%20%E5%8E%9F%E5%AD%90%E7%B1%BB:%E6%97%A0%E9%94%81%E5%B7%A5%E5%85%B7%E7%B1%BB%E7%9A%84%E5%85%B8%E8%8C%83.md)
 
 ### jvm
 - jvm运行时数据区，哪些线程私有，哪些会发生内存溢出，内存溢出和内存泄漏，怎么判断对象可回收，gc算法
